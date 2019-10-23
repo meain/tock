@@ -18,9 +18,13 @@ curl -o /usr/local/bin/tock https://raw.githubusercontent.com/meain/tock/master/
 
 ### Usage
 
+You will have to get a **free** api key from Alphavantage from [here](https://www.alphavantage.co/support/#api-key).  
+Keep the key in and env variable called `ALPHA_VANTAGE_KEY`.
+
 - Check stock: `tock SYMBOL`
 - Search stock: `tock search keyword`
 
 > Add --may-wait to handle api rate limiting (sleeps until available)
+
 
 Idea from [pstadler/ticker.sh](https://github.com/pstadler/ticker.sh), but was not available for listings in India (NSE or BSE).
